@@ -36,7 +36,7 @@ Read .agents/skills/business-context-init/SKILL.md and initialize this chat usin
 
 ```powershell
 cd C:\Code\Projects\SKILLS
-git clone https://github.com/YOUR_USERNAME/business-ai-skills.git
+git clone https://github.com/JustStanie/business-ai-skills.git
 cd business-ai-skills
 powershell -NoProfile -ExecutionPolicy Bypass -File .\setup-claude-skills.ps1
 ```
