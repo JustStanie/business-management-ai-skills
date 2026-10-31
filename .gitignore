@@ -1,0 +1,6 @@
+# Local Windows junction, recreated after clone
+.claude/skills/
+# Local SkillDB cache and project/editor clutter
+.skilldb/
+.DS_Store
+Thumbs.db
