@@ -65,10 +65,6 @@ For a multi-domain task:
 $business-skill-router Diagnose low activation, weak pricing and high churn in our SaaS product. Select the specialists and give a prioritized action plan.
 ```
 
-## Technical audit
-
-See [TECHNICAL_AUDIT.md](TECHNICAL_AUDIT.md) for the per-Skill technical review register, documented corrections, limitations and vendor references. Every specialist Skill includes domain-specific acceptance checks. Live integrations were not executed.
-
 ## Current Skills by category
 
 Categories expand on click. Once expanded, each Skill shows its purpose, practical capabilities and two ready-to-use prompts. Names below are generated from Skills **actually present** in this repository; deleted Skills are not listed.
