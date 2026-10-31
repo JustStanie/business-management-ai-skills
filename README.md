@@ -505,31 +505,6 @@ $renewal-management Build a Renewal Management playbook for a SaaS company with 
 </details>
 
 <details>
-<summary><strong>Customer Support Platforms (1 Skills)</strong> — Ticketing, support messaging and automation tooling.</summary>
-
-### Customer Support Platforms
-
-#### `drift` — Drift
-
-**Purpose:** Use for drift tasks: conversational marketing, live chat, chatbots, meeting scheduling, contact management, REST API, webhooks, JavaScript SDK.
-
-**What you can do:**
-- Map message and ticket lifecycles, queues and agent responsibilities. Then design integration flow for create/update/search, webhooks, failures and permissions. Apply these to **Drift**.
-- Support workflow and integration diagram; Escalation/SLA test plan with privacy controls.
-
-**Codex prompt:**
-```text
-$drift Design a Drift integration for ticket routing, escalation, customer identity and reporting. Specify data flows, current documentation to verify, security and failure handling.
-```
-
-**Claude Code prompt:**
-```text
-/drift Review my Drift implementation plan for API compatibility, permissions, idempotency and a practical test checklist.
-```
-
-</details>
-
-<details>
 <summary><strong>E-commerce Business Models (8 Skills)</strong> — Marketplace operations, fulfillment, conversion and customer economics.</summary>
 
 ### E-commerce Business Models
