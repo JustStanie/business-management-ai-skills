@@ -1,10 +1,44 @@
 # Business AI Skills
 
+## Automated Skill catalog and audit status
+
+<!-- AUTO-SKILL-SUMMARY:START -->
+**Live inventory:** 117 Skills = 115 specialist + 2 support; **14 categories**.
+
+The up-to-date category/Skill catalog is [`SKILL_INDEX.md`](SKILL_INDEX.md). The automatically synchronized audit status is [`TECHNICAL_AUDIT.md`](TECHNICAL_AUDIT.md); machine-readable checks are [`AUDIT_VALIDATION_RESULTS.json`](AUDIT_VALIDATION_RESULTS.json) and [`audit-register.json`](audit-register.json).
+
+**Historical review status:** 115 unchanged since prior static review; 0 changed and pending reassessment; 0 new/unreviewed.
+
+Regenerate after editing Skills: `python scripts/sync_skill_audit.py --write`. GitHub Actions performs this on pushes to the default branch; pull requests are checked for synchronization. No new expert review is implied.
+<!-- AUTO-SKILL-SUMMARY:END -->
+
+## Audit automation — keeps files synchronized
+
+`SKILL_INDEX.md`, `audit-register.json`, `AUDIT_VALIDATION_RESULTS.json` and `TECHNICAL_AUDIT.md` are now **generated, not manually maintained**. The generator also refreshes the inventory summary at the top of this README. For setup, GitHub Actions behavior, caveats and review status definitions, see [`AUDIT_AUTOMATION.md`](AUDIT_AUTOMATION.md).
+
+```powershell
+python .\scripts\sync_skill_audit.py --write
+python .\scripts\sync_skill_audit.py --check
+python -m unittest discover -s tests -p "test_*.py" -v
+```
+
+The GitHub workflow runs checks on pull requests and auto-commits regenerated reports on pushes to `main`/`master` if branch permissions allow. **Automated structural validation is not a fresh technical expert review.** New/changed methodologies require a separate substantive assessment.
+
+
+
 > Local business strategy, marketing, sales, product, e-commerce, customer success and operations Skills for **Codex** and **Claude Code**.
 
 **117 Skills total:** 115 specialist Skills + `business-skill-router` + `business-context-init`. **14 active categories.**
 
 **Skill catalog:** [`SKILL_INDEX.md`](SKILL_INDEX.md) at the repository root is the compact inventory used for skill discovery and optional chat initialization. The detailed category overview remains at `.agents/skills/business-skill-router/references/category-overview.md`. These files describe available methods, not preferences or history from previous chats.
+
+## Technical audit and validation
+
+- [`TECHNICAL_AUDIT.md`](TECHNICAL_AUDIT.md) — previous content audit restored and reconciled to the current **115 specialist Skills**.
+- [`audit-register.json`](audit-register.json) — structured per-Skill review entries for the current inventory.
+- [`AUDIT_VALIDATION_RESULTS.json`](AUDIT_VALIDATION_RESULTS.json) — current structural validation and audit provenance.
+
+The review is **not** an assurance that every API call, financial rule or vendor integration has been production-tested. No content from deleted Skills is silently restored.
 
 ## Working with multiple chats and local Skills
 

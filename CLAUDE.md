@@ -21,3 +21,6 @@ When a user creates a new Claude Code conversation in `business-management-ai-sk
 - Do not import automatic memories, summaries, or prior-session notes as implicit requirements. Reuse earlier work **only on an explicit continuity request**; confirm unavailable assumptions instead of guessing.
 - `/business-context-init` only reads the Skill catalog; it neither restores earlier chats nor disables client-level memory. Repository instructions are behavioral guidance, **not a technical guarantee of memory isolation**.
 
+## Automated repository maintenance (only when requested)
+
+The deterministic local index and audit generator is `python scripts/sync_skill_audit.py --write`, with `--check` for a read-only CI test. See `AUDIT_AUTOMATION.md`. Do **not** run it to initialize a chat. `*-context-init` remains an optional **read-only** catalog overview. Existing expert review evidence is historical and never automatically renewed after a Skill changes.

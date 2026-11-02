@@ -1,0 +1,698 @@
+{
+  "schema_version": 1,
+  "description": "Historical static review evidence. Edit entries only after real human/expert review. Never auto-approve a changed Skill.",
+  "source": "docs/audit/HISTORICAL_TECHNICAL_AUDIT.md",
+  "original_review_date": "2026-10-31",
+  "reviews": {
+    "account-management": {
+      "reviewed_sha256": "d58bac4295447b15a7faf0f0f21e385cdfe90b5d008ace9835b7023bf9ecf772",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "adhd-planning": {
+      "reviewed_sha256": "af40c1c5ad21f21c7987a56cd97fc34cbacc9c15c1fa66d0745287a33bfa19e8",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "adversarial-problem-solving": {
+      "reviewed_sha256": "006b7f16155b4e3556b8be880c06ccb39850930e2124b6f5f3b37e4bea5dfbce",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "agile-scrum": {
+      "reviewed_sha256": "9ebacac7671706f9100535baac8236159cfaa186474be74798ec64f6b784bd26",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "beehiiv": {
+      "reviewed_sha256": "893f34f894fcb125a8c83297139fdbe47821707d3057ee98164f7cc7807c5e53",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added confirmed API v2 endpoint, bearer auth, consent and cursor pagination. Signals: vendor/API; code examples",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "brand-marketing": {
+      "reviewed_sha256": "201a3a4ea262961910bf232075e5317a6b16facfccdc8b4740ca331b4bda9406",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "brand-strategy": {
+      "reviewed_sha256": "43e0d726714b4d7f5821f1010e7a39281112085416e0d69d6bf6c985e8f1239a",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "calendar-optimization": {
+      "reviewed_sha256": "63242c707f48c0ce1378c346e1e63598ec38d01fff0ad30ee930a43bbc707604",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "change-management": {
+      "reviewed_sha256": "b7153439e422117bcc3285b41a4b61138c5068d717b98786be0a7ad6dacf5d55",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "churn-prevention": {
+      "reviewed_sha256": "ed435c615061a373306135e13d163fe657dd2d49ecced65c8abb661fb781ac30",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "communications-pr": {
+      "reviewed_sha256": "9c251539870eab727f9e795982175cb18084c69f29fb718a317b222c83a61701",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "competitive-analysis": {
+      "reviewed_sha256": "4b6a3d51a6ace16cd04e0b3269a87ca6f84300f445276e2290ee00aef129787c",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "competitive-pricing": {
+      "reviewed_sha256": "b9b9211200f2e239aa380f2ebaf84f0d0a9b92598df99f2ceb548907fb8e7fdb",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Replaced truncated or incomplete frontmatter description. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "content-marketing": {
+      "reviewed_sha256": "c4855c55f935a636c04412b404c3e14806e5d1beb2651dbf9b268543bc8275c7",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "content-repurposing": {
+      "reviewed_sha256": "99f23a180a264dd021716af0d5cd6e273b07a4e041d5bed041a9ecd7b56abafe",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "conversion-optimization": {
+      "reviewed_sha256": "7e909600741ba28b051dc3e8c375f6aa5b7dd4ee0f8461d97d0e0dca31b424b2",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "conversion-rate-optimization": {
+      "reviewed_sha256": "e60edaed9070a9017565eda6e49398e2073ddf6538a14335777edb16bf3d724e",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "crm-strategy": {
+      "reviewed_sha256": "4fc0d66b320209f5b523edf7e69dd7bd8349db2f825de50f270ce27e72e80421",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "cs-operations": {
+      "reviewed_sha256": "192da454d1133f8ad14f36bff68228d7cf19a6aa0dd080b607b79dd78145c5d5",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-advocacy": {
+      "reviewed_sha256": "9d9f6729a2c9942a482d52b572c723fabafda3d7044faa2ed114f2c3187a6309",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-experience": {
+      "reviewed_sha256": "17656cdbae9125f7737659e58a523492e1bab23282258dbdd43b4a294fea68b2",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-feedback-loops": {
+      "reviewed_sha256": "bf9bbf1c683966d7de4e349d3545fc45275f0a07d8b2edcaf56645758e65df27",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-onboarding": {
+      "reviewed_sha256": "5e525a9648178a3902e2b41c4327436a1b834807f4e620c631643c9d1d39c3d7",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-onboarding-startup": {
+      "reviewed_sha256": "6a260a214f39a457b70739c7320d624be7d83b3debebc7cde2f2b2bedeafeffb",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "customer-retention-for-ecommerce": {
+      "reviewed_sha256": "04084de1056bfa21f798bc3eb6832b733736266eda4a410898fe7fe1195709aa",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "data-analytics-strategy": {
+      "reviewed_sha256": "da1f764bd0c93c9ecea8d137889dc3f0667ae1377892b1350eedf5145797af49",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added current GA4 key-event/conversion and attribution guardrails. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "digital-transformation": {
+      "reviewed_sha256": "0fac0343625b3fd0ecef6aeadf73e1f8c2e6b3eb1c621c8469af619091ba0e27",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "document-management": {
+      "reviewed_sha256": "953a397e4904ffccd530c0a4a05b935be62a8ca3aade2bc8db1c9c78d3d7effc",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "dropshipping-operations": {
+      "reviewed_sha256": "3e4f9e5c39c57f3502acd58b943fd4e8a19f77e2e3ac9d099ef1f222fe262818",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "ecommerce-analytics": {
+      "reviewed_sha256": "cefb9bb33ced139dd74de71d6e9f51482322d2dae209ce6c35f5dc8a35db9a3e",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added current GA4 key-event/conversion and attribution guardrails. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "ecommerce-conversion": {
+      "reviewed_sha256": "0a18e49564dc13803b9f4af63177efec4551d18f26946a9ebfed094a949d8327",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "ecommerce-pricing": {
+      "reviewed_sha256": "ade48fe1ed97f49ff181bdf28d3be0ca83cb7a6a8401913871d516b0cb44d97e",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Corrected the confusion between markup and gross margin in price-floor formula; Removed unsubstantiated universal ecommerce margin targets. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "email-marketing": {
+      "reviewed_sha256": "ea240158ee2a75a4094a7993f5419639496e5eb2dc62a78d03b51f49d789d811",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Removed unsupported arbitrary 5,000-subscriber cap; Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "email-marketing-for-ecommerce": {
+      "reviewed_sha256": "791b37b4a4059b47e4a5d611d92a8abc4e927751fd1edbb80a7432cb3a6092f2",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "enterprise-pricing": {
+      "reviewed_sha256": "ccbe42bdc6f6ab9d97c605a37e48e8b152669a1f270c4c66ffe82467a8927fbd",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Replaced truncated or incomplete frontmatter description. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "enterprise-sales": {
+      "reviewed_sha256": "18ce2b19b20517c4d7a13e8427a5b949aa285c5188b5c9fb98576f92932f08cd",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "escalation-management": {
+      "reviewed_sha256": "090b85b4a66256526db46415692bfa2d70cf492fbc61d03e76d5b18f43b80181",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "event-marketing": {
+      "reviewed_sha256": "e6ca8779c17f2d9cd521b5839d544abefedab2f44c8d7f0815964f091c9338fc",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "execution-discipline": {
+      "reviewed_sha256": "bb102a0779cea19256cb14c083396f9c8ca2b8645cdfcf6e1a3909032b3c4cae",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "expansion-revenue": {
+      "reviewed_sha256": "5e725a551b346e1eb5028d27ae8138456e32246433932e59ed865551c254376c",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "feature-prioritization": {
+      "reviewed_sha256": "0fc1647fa29795f76e8ef1b90174fcb155cab329ebc34c2ff8033b98cb7ffd51",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "financial-strategy": {
+      "reviewed_sha256": "c23e57069daa6fb673375d9ded9427fb37d1b8780bc0b55cc3a402da15031b6d",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Clarified SaaS magic number annualization, period alignment and benchmarking; Clarified Rule of 40 as contextual heuristic and defined margin basis; Clarified ARR/MRR conversion assumptions. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "founder-coach": {
+      "reviewed_sha256": "40eea65cb3a0c190b30d72ea5de46318fadcc047d8af512727cd04079b8afdd3",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "founder-sales": {
+      "reviewed_sha256": "d8968e955c6ae2c6f8b0140ba0ee649ed77d75dc2299ac043922749ad743cc1c",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "fulfillment": {
+      "reviewed_sha256": "7978d8270a593e586f17b7256e55ab5ba377c7837c690fbb902f969d604cd125",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "geo-content-optimizer": {
+      "reviewed_sha256": "de78f6dcd08294513f0699359899f892da269294b0e5ff409e98e9f23c863eef",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "go-to-market": {
+      "reviewed_sha256": "d5f493fdee0450fcb1eaa3c2ce83882897fe4bb204c972aa8fdc076eee5492e7",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "growth-hacking": {
+      "reviewed_sha256": "ca198d36eaa851d2cc46017f8376c87c7457b2185596d2959b833ad306502c2e",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "health-scoring": {
+      "reviewed_sha256": "f208e351912959fb59695a777e4b0623cf5cdbf27fe929883b57b07b678ddc33",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Changed mandatory daily refresh into risk-based cadence. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "hiring": {
+      "reviewed_sha256": "954cedb95e71f09648b479cb57cd4f188ea7c29480ba9244f56f9a8b26a337f3",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "influencer-strategy": {
+      "reviewed_sha256": "dcddd687dd9fa4ffffc86d566d14a3ad11c2e68d823df341c34830f218e14ccc",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "kanban": {
+      "reviewed_sha256": "d9c1be4303271bc5dbc71c4fcccea243a16fc44ff40aad572a6c06e6e25b232a",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "lean-operations": {
+      "reviewed_sha256": "bf63dced07897a6ec409506eb5921b4231f71bc63d3a232c71c477608a01ab9b",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "legal-incorporation": {
+      "reviewed_sha256": "f5f53bf047a004c56fe9d2990ad1b06fea755c867357dbfa0912afc288de3ac5",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "loops": {
+      "reviewed_sha256": "d6d3dbfb1f3ec817fe0638b9b10c10fedb2f668e878c237503afd66b84eee627",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Avoid default consent; Disabled default automatic marketing subscription for new API contacts; Clarified upsert and consent. Signals: vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "management-consulting": {
+      "reviewed_sha256": "c7de72659fa2aa3732cb964b722bd2fe5f02cfe34bf9374873a79e5fbb7b7e25",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "market-positioning": {
+      "reviewed_sha256": "ea57183549f0c16e96e5d1e0a0e58868eb1721653be668fa0ea8b4a2177ba688",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "marketing-analytics": {
+      "reviewed_sha256": "ac0db3590a985637dc54ef8a79cddfeb90b62fffbb23ced5849002586b39fbc9",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added current GA4 key-event/conversion and attribution guardrails. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "marketplace-selling": {
+      "reviewed_sha256": "40ec3a35ad2b3d927d86b1e496d577f9b6a144b650d11be8acfdf69829685532",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "marketplace-strategy": {
+      "reviewed_sha256": "0fd8c6cc87a955f9e338d7eb2eaff08a402d47094ddb5d141b6aac6f071b65c6",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "merchandising": {
+      "reviewed_sha256": "f9067f790c66bb9b60d8e85c513157db493de1500dd2fba0f373ca21ca4aca3f",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "monetization-models": {
+      "reviewed_sha256": "497c745162e3043068ff8443515d6e518aff3c4fde3a9b7542283f5787f88d1c",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "morning-routine": {
+      "reviewed_sha256": "089b5f1466a8ea17ba4d74339893b053e3b66fb8a92f0ac2a999c1b2c9cc47c5",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "mvp-development": {
+      "reviewed_sha256": "7496fd3d721aded9322cbb2f8cf9eae9d5d34872ef94657125118f72187c27c6",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "negotiation": {
+      "reviewed_sha256": "d812380f24c1d620e0891f9da5f11445bcd85b6a453d814f751b13180bcdaf39",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "neurodivergent-productivity": {
+      "reviewed_sha256": "3b40c166ff287a6c0883f90f2a6733bf5fa21a3b8c7d1e4358089f83acefcb10",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "odoo-accounting-xml-rpc-json-rpc-api": {
+      "reviewed_sha256": "7d2129d77b9d782e027ec76e88c31d58589f093edeb00eec214f7e120b3d71e6",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added verified JSON-2 pattern and clarified version-specific RPC removal, plan and nonportable IDs. Signals: vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "open-source-strategy": {
+      "reviewed_sha256": "2fdb81163c11027b6745cccc60397acb58ffa39b71ff1d8af3797416b596285e",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "paid-acquisition": {
+      "reviewed_sha256": "ebd49273243030367b98e853062fecd82677741a4cc6d04ff8ccb38943280320",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added current GA4 key-event/conversion and attribution guardrails. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "paypal": {
+      "reviewed_sha256": "aaeccda192108a5041a0784d4384a1947673ab1687ea23376ea0268e7fde2e9d",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Fixed automatic revocation for partial refunds; Required verifying event names against current catalog; Changed refund handling to policy-based reconciliation. Signals: vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "pitch-deck": {
+      "reviewed_sha256": "b17e6b687b02e33f23af4349bd17a36fa8382a7942285838687e5e53a0c9eff3",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "price-increase-strategy": {
+      "reviewed_sha256": "c0e3db57995892109d922ebe842293339a94fb6f916d052ced164b97bb605c98",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "price-optimization": {
+      "reviewed_sha256": "fe3e68affe62b201f2f13d287d678bfe1858fe501a3ed9a949a6428d7609b0aa",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Replaced truncated or incomplete frontmatter description. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "pricing-psychology": {
+      "reviewed_sha256": "b2406083861fc0c7fbd81181adf7381fda5181a87cdf87096fde04fb144e0a2d",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "pricing-psychology-pricing-strategy": {
+      "reviewed_sha256": "c6077f3de8197b413968366cf42dd9161a49584c9fc3ea77ab95f22bc996edd1",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Replaced truncated or incomplete frontmatter description. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "pricing-strategy": {
+      "reviewed_sha256": "031c250ebff435c74639acf4076f11ed49d5ea3e14d12d33d70ae4a1821982f4",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "pricing-strategy-product-management": {
+      "reviewed_sha256": "a4905152a252b30e9c20b5ec43fb53035bee94dcb1cd8d4e247a902320c366f0",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "print-on-demand-business": {
+      "reviewed_sha256": "296e37ba044ed4636adf01de8e764b65b66d91541fe85f2cc74f4dbd767a68ce",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "product-discovery": {
+      "reviewed_sha256": "dcfcaddc33a13f0b33074bad79de691010a85265271674de10075bc9da3d40ee",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "product-launch": {
+      "reviewed_sha256": "263732a3e1533fee6d0e23560b2dadd6c02aa2d329fed0468929a6268f1f1fc1",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "product-market-fit": {
+      "reviewed_sha256": "398686aa290299ddb10c882ff98277df11d1340c4fad3ee7f32d47d7d1afd342",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "product-metrics": {
+      "reviewed_sha256": "295fee6c32529078cfe317f023e7aa3ddac8c33475ed46fef5bb040cab9a5e54",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "product-photography": {
+      "reviewed_sha256": "00219ce8d712bc2cd4e1c9b72268dc0ec0765f38a9ff615b0dac21ce21a9dff1",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "product-strategy": {
+      "reviewed_sha256": "878d98d1b2208c37369cdbfd4a4c116d18cdc06d999b3218f7e754b1dd1d1175",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "product-strategy-startup": {
+      "reviewed_sha256": "1282e4cd59b0ca3a1b650c94536117ffce1045b38bc8e2fd09be2aea27c140bb",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "project-estimation": {
+      "reviewed_sha256": "17428be1773ee2ad2e0682138014b20a26ac5ffd4c32bb16784205c8046ae1e8",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "project-recovery": {
+      "reviewed_sha256": "5ab7ab0a4f96ecb9fec72430729825b9c2446fcfbe2ecd79a9dd6b542f784c19",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "proposal-writing": {
+      "reviewed_sha256": "17c5e969435b954331388bd7de538006f6e73410a401b3a4dd5e30fe16d39c5e",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "prospecting": {
+      "reviewed_sha256": "0e29bb8ef7d84195da83cedcc4787fdef51406ac30db93d3c78256d7a93b2805",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "qbr-business-reviews": {
+      "reviewed_sha256": "5737891275ee59d005d0d6e3ad1c97ab2b9975a172dc055a29d6ddcb7ab749ec",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "renewal-management": {
+      "reviewed_sha256": "ec2f82c32e5c285283d568e66c583d40cb1ad08157f2eb874dd989565e20762c",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "retention-loyalty": {
+      "reviewed_sha256": "010a3c80ee49f2b29b9deff7cd44132f0241329d5bcfe08990ef63f36e00acac",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "retrospectives": {
+      "reviewed_sha256": "1952767212eca25bd9cc2f2307fb4943068184f49013f1494b68169ecb1c660b",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "risk-management": {
+      "reviewed_sha256": "c57a9a8e58474fadfed163744784d802f528275d4d24215db61fa9a63db82106",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "roadmap-planning": {
+      "reviewed_sha256": "ca67661d47f252a7d0e1628da11045fd72b7faa26bb33b39eb8002c8b1d3b63d",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "saleor": {
+      "reviewed_sha256": "038206bb33c9735470e7f626b41a1577ae50711231d0400a4adfe977bbbe1dd0",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Replaced deprecated HMAC-only webhook example with current JWS/JWKS approach; Added HTTP/GraphQL error handling to product query example; Removed legacy base64 ID assumption; Updated webhook environment examples. Signals: vendor/API; code examples",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "sales-enablement": {
+      "reviewed_sha256": "eaef49769f97fd03181ed2cdad2ff2d2db5065ee919ad1f1948ed3d99d2893e5",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "sales-leadership": {
+      "reviewed_sha256": "3ece78f2eeb2086c04be813d1b8726d48691f848b52264f54a4b58ed58ea2555",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "sales-ops": {
+      "reviewed_sha256": "da89a1d3c21b060dc4dd329ca9de6f93172e2edd447fcbb77eaad1afc272d587",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Added domain-specific legal/privacy/compliance decision controls. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "scope-management": {
+      "reviewed_sha256": "cecd0a1f33d3543f47623095ee108c312dba5e06c215cbded795e49c9e2bfae6",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "seo": {
+      "reviewed_sha256": "499e8709d0a7cebe853cf1a4f771af14f1260f56316b3fff3f13bb4baacc76ec",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Corrected unconditional Largest Contentful Paint remedy. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "social-commerce": {
+      "reviewed_sha256": "c3ba7db3fd48ecd5c3efa693768a684ebd95c079ffefff8165fcb5fc94363ab7",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "social-media-strategy": {
+      "reviewed_sha256": "458b2adc92c7c99d75224517f4e781d1b67e43b68a3d6f8db633cf228cd950c3",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "solution-selling": {
+      "reviewed_sha256": "b22a9ee8fa151ccb1d643c2970ab0bbb373bdccc121a9acb18e1608ef3805e3f",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "sprint-planning": {
+      "reviewed_sha256": "c39f82f78179e8c0302e65f9f49b4e2e6acb0cd049d03ce376455c4458c5652a",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "stakeholder-management-product-management": {
+      "reviewed_sha256": "602d1bebd90e405d460ba6bfff5aeed08c595f263834f30d2af48b7cb31617a1",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "stakeholder-management-project-management": {
+      "reviewed_sha256": "05c78350adf7cd4b5cc9f329a09b0fc1e4dbc3de950d079713d23c5154205c9d",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "startup-metrics": {
+      "reviewed_sha256": "c63de0ec5a74d8ed5363ae867d20095b575aa4b1d7f18f8a84de7b3b5bc39eba",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Removed universal monthly logo churn thresholds; Qualified stage-wide ARR growth benchmarks; Qualified SaaS NRR cohort benchmarks; Qualified gross margin benchmark. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "storefront-design": {
+      "reviewed_sha256": "ac7a1ddd749143cf66b01140d2f21836a632792f4b862aaafa436c15ec29a259",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "subscription-pricing": {
+      "reviewed_sha256": "42e9e10651e106c732ef289dc95df5664b7d87d987665aa5ff402022e323f8d0",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Qualified NRR benchmark and unit interpretation; Corrected MRR aggregation and ARPA denominator caveat. Signals: numeric claims; vendor/API; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "supply-chain": {
+      "reviewed_sha256": "a9b176d49107e52288e80ab4b2aa22a5accbe38c224421869b273c91352f40c4",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Corrected ABC/Pareto interpretation and zero-stockout absolute. Signals: numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "team-velocity": {
+      "reviewed_sha256": "0b629d351ca80b2451203c907e7973dec6291fb787c2d087fbb89d4d3ddbef0d",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims; code examples; potentially overgeneralized advice",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "time-management": {
+      "reviewed_sha256": "6fe459413ebcead01936f868278841767280b3f405f73b8a6cb57c6c4463e609",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: numeric claims",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "user-research": {
+      "reviewed_sha256": "be2608052edb533403071e74bffa79e4f6b31a4abf0ba6171f581a708fe0977d",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Domain acceptance criteria; no individually confirmed defect. Changes: No distinct defect confirmed in available static review. Signals: domain-specific logic",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    },
+    "value-based-pricing": {
+      "reviewed_sha256": "98bceaff829caf44922a49e223aaf356062efc7823e6241a298c8e0ed1df54cf",
+      "review_type": "historical_static_review",
+      "summary": "Review result: Targeted fixes + domain acceptance criteria. Changes: Replaced truncated or incomplete frontmatter description. Signals: numeric claims",
+      "limitations": "Historical static review; no blanket live/API validation or automatic semantic certification."
+    }
+  }
+}

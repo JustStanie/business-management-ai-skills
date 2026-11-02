@@ -1,0 +1,48 @@
+{
+  "schema_version": 2,
+  "repository": "business-management-ai-skills",
+  "source": "current .agents/skills/*/SKILL.md and docs/audit/review-baseline.json",
+  "generator": "scripts/sync_skill_audit.py",
+  "total_skills": 117,
+  "specialist_skills": 115,
+  "support_skills": 2,
+  "categories": 14,
+  "category_counts": {
+    "Accounting Platforms & APIs": 1,
+    "Customer Success": 10,
+    "E-commerce Business Models": 8,
+    "E-commerce Optimization": 10,
+    "E-commerce Services & APIs": 1,
+    "Marketing & Growth": 13,
+    "Newsletter & Email Platforms": 2,
+    "Payment Services & APIs": 1,
+    "Pricing & Monetization": 8,
+    "Product Management": 10,
+    "Project & Productivity Management": 16,
+    "Sales & Revenue Operations": 10,
+    "Startups & Founders": 13,
+    "Strategy & Consulting": 12
+  },
+  "static_validation": "passed",
+  "static_checks_performed": [
+    "frontmatter delimiters and mandatory name/description",
+    "folder and Skill identity",
+    "Markdown H1",
+    "balanced Markdown code fences",
+    "category assignment coverage",
+    "deterministic generated artifact consistency"
+  ],
+  "expert_review_counts": {
+    "historical_static_review_current": 115
+  },
+  "errors": [],
+  "warnings": [],
+  "not_tested": [
+    "complete YAML schema beyond required metadata",
+    "source code compilation and execution",
+    "live APIs, networks, payment systems and markets",
+    "full expert re-review of every claim",
+    "all internal or external markdown links"
+  ],
+  "expert_review_policy": "Changing a Skill SHA-256 invalidates the previous historical review match; generator never self-certifies substantive correctness."
+}

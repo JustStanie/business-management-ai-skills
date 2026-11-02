@@ -1,0 +1,1037 @@
+[
+  {
+    "skill": "account-management",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 198,
+    "percentage_mentions": 13,
+    "flags": "numeric claims; vendor/API; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "adhd-planning",
+    "category": "Project & Productivity Management",
+    "original_lines": 152,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "adversarial-problem-solving",
+    "category": "Strategy & Consulting",
+    "original_lines": 122,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "agile-scrum",
+    "category": "Project & Productivity Management",
+    "original_lines": 272,
+    "percentage_mentions": 4,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "beehiiv",
+    "category": "Newsletter & Email Platforms",
+    "original_lines": 62,
+    "percentage_mentions": 0,
+    "flags": "vendor/API; code examples",
+    "changes": "Added confirmed API v2 endpoint, bearer auth, consent and cursor pagination",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "brand-marketing",
+    "category": "Marketing & Growth",
+    "original_lines": 205,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "brand-strategy",
+    "category": "Strategy & Consulting",
+    "original_lines": 345,
+    "percentage_mentions": 2,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "calendar-optimization",
+    "category": "Project & Productivity Management",
+    "original_lines": 118,
+    "percentage_mentions": 2,
+    "flags": "numeric claims",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "change-management",
+    "category": "Strategy & Consulting",
+    "original_lines": 251,
+    "percentage_mentions": 0,
+    "flags": "code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "churn-prevention",
+    "category": "Customer Success",
+    "original_lines": 257,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "communications-pr",
+    "category": "Strategy & Consulting",
+    "original_lines": 299,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "competitive-analysis",
+    "category": "Product Management",
+    "original_lines": 142,
+    "percentage_mentions": 0,
+    "flags": "code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "competitive-pricing",
+    "category": "Pricing & Monetization",
+    "original_lines": 104,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "Replaced truncated or incomplete frontmatter description",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "content-marketing",
+    "category": "Marketing & Growth",
+    "original_lines": 225,
+    "percentage_mentions": 2,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "content-repurposing",
+    "category": "Marketing & Growth",
+    "original_lines": 118,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "conversion-optimization",
+    "category": "Marketing & Growth",
+    "original_lines": 186,
+    "percentage_mentions": 12,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "conversion-rate-optimization",
+    "category": "E-commerce Business Models",
+    "original_lines": 50,
+    "percentage_mentions": 5,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "crm-strategy",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 227,
+    "percentage_mentions": 12,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "cs-operations",
+    "category": "Customer Success",
+    "original_lines": 266,
+    "percentage_mentions": 11,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "customer-advocacy",
+    "category": "Customer Success",
+    "original_lines": 264,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "customer-experience",
+    "category": "Strategy & Consulting",
+    "original_lines": 251,
+    "percentage_mentions": 8,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "customer-feedback-loops",
+    "category": "Customer Success",
+    "original_lines": 297,
+    "percentage_mentions": 4,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "customer-onboarding",
+    "category": "Customer Success",
+    "original_lines": 263,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "customer-onboarding-startup",
+    "category": "Startups & Founders",
+    "original_lines": 144,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "customer-retention-for-ecommerce",
+    "category": "E-commerce Business Models",
+    "original_lines": 50,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "data-analytics-strategy",
+    "category": "Strategy & Consulting",
+    "original_lines": 298,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "Added current GA4 key-event/conversion and attribution guardrails",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "digital-transformation",
+    "category": "Strategy & Consulting",
+    "original_lines": 242,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; vendor/API; code examples",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "document-management",
+    "category": "Strategy & Consulting",
+    "original_lines": 118,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "dropshipping-operations",
+    "category": "E-commerce Business Models",
+    "original_lines": 50,
+    "percentage_mentions": 5,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "ecommerce-analytics",
+    "category": "E-commerce Optimization",
+    "original_lines": 248,
+    "percentage_mentions": 34,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Added current GA4 key-event/conversion and attribution guardrails",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "ecommerce-conversion",
+    "category": "E-commerce Optimization",
+    "original_lines": 182,
+    "percentage_mentions": 13,
+    "flags": "numeric claims; vendor/API; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "ecommerce-pricing",
+    "category": "E-commerce Optimization",
+    "original_lines": 202,
+    "percentage_mentions": 23,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Corrected the confusion between markup and gross margin in price-floor formula; Removed unsubstantiated universal ecommerce margin targets",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "email-marketing",
+    "category": "Marketing & Growth",
+    "original_lines": 206,
+    "percentage_mentions": 15,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Removed unsupported arbitrary 5,000-subscriber cap; Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "email-marketing-for-ecommerce",
+    "category": "E-commerce Business Models",
+    "original_lines": 52,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "enterprise-pricing",
+    "category": "Pricing & Monetization",
+    "original_lines": 108,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Replaced truncated or incomplete frontmatter description",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "enterprise-sales",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 159,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "escalation-management",
+    "category": "Customer Success",
+    "original_lines": 335,
+    "percentage_mentions": 5,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "event-marketing",
+    "category": "Marketing & Growth",
+    "original_lines": 260,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "execution-discipline",
+    "category": "Project & Productivity Management",
+    "original_lines": 156,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "expansion-revenue",
+    "category": "Customer Success",
+    "original_lines": 249,
+    "percentage_mentions": 15,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "feature-prioritization",
+    "category": "Product Management",
+    "original_lines": 148,
+    "percentage_mentions": 8,
+    "flags": "numeric claims; code examples",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "financial-strategy",
+    "category": "Strategy & Consulting",
+    "original_lines": 210,
+    "percentage_mentions": 14,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Clarified SaaS magic number annualization, period alignment and benchmarking; Clarified Rule of 40 as contextual heuristic and defined margin basis; Clarified ARR/MRR conversion assumptions",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "founder-coach",
+    "category": "Startups & Founders",
+    "original_lines": 88,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "founder-sales",
+    "category": "Startups & Founders",
+    "original_lines": 289,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "fulfillment",
+    "category": "E-commerce Optimization",
+    "original_lines": 170,
+    "percentage_mentions": 11,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "geo-content-optimizer",
+    "category": "Marketing & Growth",
+    "original_lines": 104,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "go-to-market",
+    "category": "Strategy & Consulting",
+    "original_lines": 232,
+    "percentage_mentions": 7,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "growth-hacking",
+    "category": "Startups & Founders",
+    "original_lines": 271,
+    "percentage_mentions": 4,
+    "flags": "numeric claims; vendor/API; code examples",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "health-scoring",
+    "category": "Customer Success",
+    "original_lines": 270,
+    "percentage_mentions": 15,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "Changed mandatory daily refresh into risk-based cadence",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "hiring",
+    "category": "Startups & Founders",
+    "original_lines": 303,
+    "percentage_mentions": 22,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "influencer-strategy",
+    "category": "Marketing & Growth",
+    "original_lines": 201,
+    "percentage_mentions": 7,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "kanban",
+    "category": "Project & Productivity Management",
+    "original_lines": 224,
+    "percentage_mentions": 2,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "lean-operations",
+    "category": "Startups & Founders",
+    "original_lines": 266,
+    "percentage_mentions": 9,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "legal-incorporation",
+    "category": "Startups & Founders",
+    "original_lines": 291,
+    "percentage_mentions": 9,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "loops",
+    "category": "Newsletter & Email Platforms",
+    "original_lines": 424,
+    "percentage_mentions": 0,
+    "flags": "vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "Avoid default consent; Disabled default automatic marketing subscription for new API contacts; Clarified upsert and consent",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "management-consulting",
+    "category": "Strategy & Consulting",
+    "original_lines": 259,
+    "percentage_mentions": 11,
+    "flags": "numeric claims; code examples",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "market-positioning",
+    "category": "Strategy & Consulting",
+    "original_lines": 377,
+    "percentage_mentions": 0,
+    "flags": "code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "marketing-analytics",
+    "category": "Marketing & Growth",
+    "original_lines": 229,
+    "percentage_mentions": 9,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Added current GA4 key-event/conversion and attribution guardrails",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "marketplace-selling",
+    "category": "E-commerce Business Models",
+    "original_lines": 50,
+    "percentage_mentions": 7,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "marketplace-strategy",
+    "category": "E-commerce Optimization",
+    "original_lines": 161,
+    "percentage_mentions": 13,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "merchandising",
+    "category": "E-commerce Optimization",
+    "original_lines": 184,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "monetization-models",
+    "category": "Pricing & Monetization",
+    "original_lines": 111,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "morning-routine",
+    "category": "Project & Productivity Management",
+    "original_lines": 75,
+    "percentage_mentions": 5,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "mvp-development",
+    "category": "Startups & Founders",
+    "original_lines": 254,
+    "percentage_mentions": 2,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "negotiation",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 203,
+    "percentage_mentions": 10,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "neurodivergent-productivity",
+    "category": "Project & Productivity Management",
+    "original_lines": 135,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "odoo-accounting-xml-rpc-json-rpc-api",
+    "category": "Accounting Platforms & APIs",
+    "original_lines": 315,
+    "percentage_mentions": 0,
+    "flags": "vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "Added verified JSON-2 pattern and clarified version-specific RPC removal, plan and nonportable IDs",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "open-source-strategy",
+    "category": "Startups & Founders",
+    "original_lines": 127,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "paid-acquisition",
+    "category": "Marketing & Growth",
+    "original_lines": 205,
+    "percentage_mentions": 12,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Added current GA4 key-event/conversion and attribution guardrails",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "paypal",
+    "category": "Payment Services & APIs",
+    "original_lines": 151,
+    "percentage_mentions": 0,
+    "flags": "vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "Fixed automatic revocation for partial refunds; Required verifying event names against current catalog; Changed refund handling to policy-based reconciliation",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "pitch-deck",
+    "category": "Startups & Founders",
+    "original_lines": 261,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "price-increase-strategy",
+    "category": "Pricing & Monetization",
+    "original_lines": 103,
+    "percentage_mentions": 10,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "price-optimization",
+    "category": "Pricing & Monetization",
+    "original_lines": 104,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "Replaced truncated or incomplete frontmatter description",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "pricing-psychology",
+    "category": "Marketing & Growth",
+    "original_lines": 166,
+    "percentage_mentions": 4,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "pricing-psychology-pricing-strategy",
+    "category": "Pricing & Monetization",
+    "original_lines": 108,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Replaced truncated or incomplete frontmatter description",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "pricing-strategy",
+    "category": "E-commerce Business Models",
+    "original_lines": 50,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "pricing-strategy-product-management",
+    "category": "Product Management",
+    "original_lines": 156,
+    "percentage_mentions": 2,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "print-on-demand-business",
+    "category": "E-commerce Business Models",
+    "original_lines": 50,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "product-discovery",
+    "category": "Product Management",
+    "original_lines": 71,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "product-launch",
+    "category": "Product Management",
+    "original_lines": 64,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "product-market-fit",
+    "category": "Startups & Founders",
+    "original_lines": 304,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "product-metrics",
+    "category": "Product Management",
+    "original_lines": 66,
+    "percentage_mentions": 0,
+    "flags": "potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "product-photography",
+    "category": "E-commerce Optimization",
+    "original_lines": 219,
+    "percentage_mentions": 7,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "product-strategy",
+    "category": "Product Management",
+    "original_lines": 68,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "product-strategy-startup",
+    "category": "Startups & Founders",
+    "original_lines": 273,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "project-estimation",
+    "category": "Project & Productivity Management",
+    "original_lines": 171,
+    "percentage_mentions": 8,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "project-recovery",
+    "category": "Project & Productivity Management",
+    "original_lines": 205,
+    "percentage_mentions": 3,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "proposal-writing",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 203,
+    "percentage_mentions": 4,
+    "flags": "numeric claims; vendor/API; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "prospecting",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 235,
+    "percentage_mentions": 15,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "qbr-business-reviews",
+    "category": "Customer Success",
+    "original_lines": 289,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "renewal-management",
+    "category": "Customer Success",
+    "original_lines": 319,
+    "percentage_mentions": 24,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "retention-loyalty",
+    "category": "E-commerce Optimization",
+    "original_lines": 169,
+    "percentage_mentions": 13,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "retrospectives",
+    "category": "Project & Productivity Management",
+    "original_lines": 194,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "risk-management",
+    "category": "Project & Productivity Management",
+    "original_lines": 193,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "roadmap-planning",
+    "category": "Product Management",
+    "original_lines": 69,
+    "percentage_mentions": 1,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "saleor",
+    "category": "E-commerce Services & APIs",
+    "original_lines": 197,
+    "percentage_mentions": 0,
+    "flags": "vendor/API; code examples",
+    "changes": "Replaced deprecated HMAC-only webhook example with current JWS/JWKS approach; Added HTTP/GraphQL error handling to product query example; Removed legacy base64 ID assumption; Updated webhook environment examples",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "sales-enablement",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 230,
+    "percentage_mentions": 4,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "sales-leadership",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 286,
+    "percentage_mentions": 15,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "sales-ops",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 214,
+    "percentage_mentions": 24,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Added domain-specific legal/privacy/compliance decision controls",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "scope-management",
+    "category": "Project & Productivity Management",
+    "original_lines": 183,
+    "percentage_mentions": 7,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "seo",
+    "category": "Marketing & Growth",
+    "original_lines": 150,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "Corrected unconditional Largest Contentful Paint remedy",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "social-commerce",
+    "category": "E-commerce Business Models",
+    "original_lines": 50,
+    "percentage_mentions": 4,
+    "flags": "numeric claims",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "social-media-strategy",
+    "category": "Marketing & Growth",
+    "original_lines": 227,
+    "percentage_mentions": 4,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "solution-selling",
+    "category": "Sales & Revenue Operations",
+    "original_lines": 221,
+    "percentage_mentions": 7,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "sprint-planning",
+    "category": "Project & Productivity Management",
+    "original_lines": 195,
+    "percentage_mentions": 17,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "stakeholder-management-product-management",
+    "category": "Product Management",
+    "original_lines": 67,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "stakeholder-management-project-management",
+    "category": "Project & Productivity Management",
+    "original_lines": 179,
+    "percentage_mentions": 0,
+    "flags": "code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "startup-metrics",
+    "category": "Startups & Founders",
+    "original_lines": 331,
+    "percentage_mentions": 43,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "Removed universal monthly logo churn thresholds; Qualified stage-wide ARR growth benchmarks; Qualified SaaS NRR cohort benchmarks; Qualified gross margin benchmark",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "storefront-design",
+    "category": "E-commerce Optimization",
+    "original_lines": 132,
+    "percentage_mentions": 6,
+    "flags": "numeric claims; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "subscription-pricing",
+    "category": "Pricing & Monetization",
+    "original_lines": 106,
+    "percentage_mentions": 8,
+    "flags": "numeric claims; vendor/API; potentially overgeneralized advice",
+    "changes": "Qualified NRR benchmark and unit interpretation; Corrected MRR aggregation and ARPA denominator caveat",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "supply-chain",
+    "category": "E-commerce Optimization",
+    "original_lines": 154,
+    "percentage_mentions": 17,
+    "flags": "numeric claims; vendor/API; code examples; potentially overgeneralized advice",
+    "changes": "Corrected ABC/Pareto interpretation and zero-stockout absolute",
+    "result": "Targeted fixes + domain acceptance criteria"
+  },
+  {
+    "skill": "team-velocity",
+    "category": "Project & Productivity Management",
+    "original_lines": 174,
+    "percentage_mentions": 10,
+    "flags": "numeric claims; code examples; potentially overgeneralized advice",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "time-management",
+    "category": "Project & Productivity Management",
+    "original_lines": 113,
+    "percentage_mentions": 2,
+    "flags": "numeric claims",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "user-research",
+    "category": "Product Management",
+    "original_lines": 68,
+    "percentage_mentions": 0,
+    "flags": "domain-specific logic",
+    "changes": "No distinct defect confirmed in available static review",
+    "result": "Domain acceptance criteria; no individually confirmed defect"
+  },
+  {
+    "skill": "value-based-pricing",
+    "category": "Pricing & Monetization",
+    "original_lines": 107,
+    "percentage_mentions": 6,
+    "flags": "numeric claims",
+    "changes": "Replaced truncated or incomplete frontmatter description",
+    "result": "Targeted fixes + domain acceptance criteria"
+  }
+]

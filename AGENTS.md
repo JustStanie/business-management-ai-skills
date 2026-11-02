@@ -53,3 +53,11 @@ When the user invokes `$business-context-init`, `/business-context-init`, or ask
 - `.agents/skills/business-context-init/` — optional chat initialization workflow.
 - `.claude/skills/` — local Windows Junction to the same physical library, created by `setup-claude-skills.ps1`.
 - `README.md` — human-facing current inventory, examples and installation notes.
+
+## Automated audit and inventory maintenance
+
+- This repository contains `scripts/sync_skill_audit.py`, which deterministically maintains `SKILL_INDEX.md`, `audit-register.json`, `AUDIT_VALIDATION_RESULTS.json`, `TECHNICAL_AUDIT.md`, and the marked README summary.
+- **Only for explicit repository maintenance** (or CI): run `python scripts/sync_skill_audit.py --write`, then `--check` and regression tests. Do not run these for ordinary advisory questions.
+- Consult `AUDIT_AUTOMATION.md` before altering audit semantics. The detailed previous review is preserved in `docs/audit/HISTORICAL_TECHNICAL_AUDIT.md`; review baseline/category mapping are **curated sources**, not auto-generated outputs.
+- A changed SHA-256 requires a fresh expert evaluation; passing automatic validation does not imply tested integrations, financial correctness, or substantiated claims.
+- Do not confuse optional chat initialization with running the inventory/audit maintenance script.
