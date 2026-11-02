@@ -2,11 +2,65 @@
 
 > Local business strategy, marketing, sales, product, e-commerce, customer success and operations Skills for **Codex** and **Claude Code**.
 
-**118 Skills total:** 116 specialist Skills + `business-skill-router` + `business-context-init`. **15 active categories.**
+**117 Skills total:** 115 specialist Skills + `business-skill-router` + `business-context-init`. **14 active categories.**
+
+**Skill catalog:** [`SKILL_INDEX.md`](SKILL_INDEX.md) at the repository root is the compact inventory used for skill discovery and optional chat initialization. The detailed category overview remains at `.agents/skills/business-skill-router/references/category-overview.md`. These files describe available methods, not preferences or history from previous chats.
+
+## Working with multiple chats and local Skills
+
+**Recommended rule: one repository = one specialist knowledge library; one chat = one independent topic or project.**
+
+### Keep independent chats independent
+
+**A new chat should not inherit your preferences or decisions from an unrelated previous chat.** The agent chooses Skills and makes recommendations from the **current question**, the current chat and relevant evidence. Sharing the same repository only means the same specialist methods are available; it does not make a past topic a preference.
+
+**Example (Crypto):** if chat A is about developing Solana smart contracts and chat B is about constructing a crypto portfolio, the agent should **not** promote SOL merely because you discussed Solana in chat A. SOL may be considered only if it independently fits the portfolio criteria or you request it.
+
+If you **want** to continue an earlier discussion in a new chat, explicitly say so and provide its summary or files (or authorize the agent to retrieve relevant prior work when supported). Do not assume earlier decisions are present. `*-context-init` is **optional** and only maps available Skills; it **does not import earlier chats or clear memory**.
+
+> **Limit:** this policy controls how the repo instructs the agent to behave; it cannot disable built-in cross-chat memory, global instructions, or other context sources provided by Codex/Claude. For strict separation, check the client's memory/privacy controls and workspace boundaries.
+
+| Your situation | What to do | Is context initialization required? |
+|---|---|---|
+| New, unrelated question within business, marketing, sales, product management and operations | Open **business-management-ai-skills** in Codex Desktop or Claude Code and start a **new chat/thread**. Ask your question normally. | **No.** Repository instructions already direct the agent to the coordinator. |
+| Continue an earlier discussion on the same problem | Return to the **existing chat** to retain its history and decisions. | No. |
+| Want a quick overview of available Skills, or have just changed the library | In that chat, explicitly invoke the **context initializer**. | Optional, useful on demand. |
+| Want to force a particular specialist | Invoke `$skill-name` (Codex) or `/skill-name` (Claude Code), if the client discovers that Skill. | No. |
+| Need a different domain | Open that domain's **separate repository** and start a chat there. | No. Other repositories' Skills are not automatically included. |
+
+### Start a new topic
+
+**Codex Desktop:** open the `'business-management-ai-skills'` repository as a project, choose **New Thread / New Chat**, then ask your question. You do **not** need to clone the repository again or create a new folder for each discussion.
+
+**Claude Code:** open a new session from the repository root (assuming the `claude` CLI is installed):
+
+```powershell
+cd C:\Code\Projects\SKILLS\business-management-ai-skills
+claude
+```
+
+Within the active session, use `/clear` for a fresh conversation only if supported by your installed version, or exit and start `claude` again. Reuse an existing session when previous decisions are relevant.
+
+### How the assistant picks Skills
+
+1. The project `AGENTS.md` (Codex) or `CLAUDE.md` (Claude Code) directs the agent to the default `business-skill-router`.
+2. The coordinator identifies the topic, consults available Skill metadata, and reads only the relevant `SKILL.md` file(s).
+3. You receive one coherent answer. Full instructions for all Skills are **not** loaded into every new conversation.
+
+**Run `business-context-init` only when you want to initialize or refresh the catalog explicitly.**
+
+| Agent | Optional catalog initialization | Explicit coordinator |
+|---|---|---|
+| Codex Desktop | `$business-context-init` | `$business-skill-router` |
+| Claude Code | `/business-context-init` | `/business-skill-router` |
+
+If the command is not discovered, ask: `Read .agents/skills/business-context-init/SKILL.md and provide a brief overview of the local skill catalog without loading all specialists.`
+
+**Important:** initialization is not model training or permanent memory. A new chat has separate conversation history. If you need to continue specific decisions from another chat, provide a concise summary or relevant files. Repository files and Skills remain available in new sessions, subject to your agent version, file access, and global instruction priority.
 
 ## Start here — initialize Skill context (optional)
 
-This is a **one-time command for the current chat**, not a global installation or AI training step. It reads a compact description of the library, then only loads specialist instructions when you ask a specific question.
+This is an **optional, on-demand command for the current chat**, not a global installation or AI training step. It reads a compact description of the library, then only loads specialist instructions when you ask a specific question.
 
 | Agent | Initialize Skill catalogue | Ask the default coordinator |
 |---|---|---|
@@ -30,7 +84,7 @@ Claude Code:
 Read .agents/skills/business-context-init/SKILL.md and initialize this chat using the local skill catalogue. Do not read all specialist SKILL.md files.
 ```
 
-> **Important:** no command can permanently preload these files into the model. A fresh chat may need a new initialization; ordinary questions work without it because the router is referenced in the project instructions. Codex `/init` is a different command for creating project guidance and is not this library initializer.
+> **Important:** no command can permanently preload these files into the model. A fresh chat does not require initialization; ordinary questions work without it because the router is referenced in the project instructions. Codex `/init` is a different command for creating project guidance and is not this library initializer.
 
 ## Repository setup (Windows 11 / PowerShell)
 
@@ -41,7 +95,7 @@ cd business-management-ai-skills
 powershell -NoProfile -ExecutionPolicy Bypass -File .\setup-claude-skills.ps1
 ```
 
-Replace `YOUR_USERNAME` with the repository owner. The setup script creates a local Windows Junction from `.claude/skills/` to `.agents/skills/`, preserving a single physical library. The Junction is not stored in Git; rerun setup after cloning on a different computer.
+The setup script creates a local Windows Junction from `.claude/skills/` to `.agents/skills/`, preserving a single physical library. The Junction is not stored in Git; rerun setup after cloning on a different computer.
 
 **Confirm the local Claude link:**
 

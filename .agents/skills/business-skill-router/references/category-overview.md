@@ -7,7 +7,6 @@ The names and counts below reflect only Skills physically present under `.agents
 - **Accounting Platforms & APIs** — 1 Skills. Accounting platform data, invoices, reconciliation and third-party API integrations.
 - **Strategy & Consulting** — 12 Skills. Business diagnostics, strategic positioning and organizational decisions.
 - **Customer Success** — 10 Skills. Customer retention, onboarding, expansion and account health.
-- **Customer Support Platforms** — 1 Skills. Ticketing, support messaging and automation tooling.
 - **E-commerce Business Models** — 8 Skills. Marketplace operations, fulfillment, conversion and customer economics.
 - **E-commerce Services & APIs** — 1 Skills. Shopping platforms, subscription commerce and vendor integrations.
 - **E-commerce Optimization** — 10 Skills. Store economics, merchandising, conversion and logistics.
@@ -20,11 +19,11 @@ The names and counts below reflect only Skills physically present under `.agents
 - **Sales & Revenue Operations** — 10 Skills. Prospecting, account management, enterprise sales and pipeline processes.
 - **Startups & Founders** — 13 Skills. Early-stage validation, hiring, fundraising and company operations.
 
-**Specialist skills:** 116
+**Specialist skills:** 115
 **Routing/initialization skills:** 2
-**Total Skills:** 118
+**Total Skills:** 117
 
 ## Usage
 - For overview only, do not load every full `SKILL.md`.
-- Use `skill-index.md` to shortlist expertise; load one primary specialist and a small number of complementary Skills for specific tasks.
+- Use `SKILL_INDEX.md` (repository root) to shortlist expertise; load one primary specialist and a small number of complementary Skills for specific tasks.
 - The catalogue describes capabilities, not connected services or live market data.

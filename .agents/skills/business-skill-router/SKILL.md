@@ -13,7 +13,7 @@ Coordinate the repository-local Skills for business consultation, analysis and u
 ## Selecting Skills
 
 1. Understand the user's business objective and whether a specific Skill was requested.
-2. Consult `references/category-overview.md` for broad domains; search the relevant part of `references/skill-index.md` for matching Skill names, descriptions and categories.
+2. Consult `references/category-overview.md` for broad domains; search the relevant part of `SKILL_INDEX.md` (repository root) for matching Skill names, descriptions and categories.
 3. Read the complete `SKILL.md` for the **one best-matching specialist**. Read up to two additional specialists only if the problem genuinely spans domains.
 4. For overlapping topics, prefer the more specific Skill. Distinguish `stakeholder-management-product-management` from `stakeholder-management-project-management`, customer-success onboarding from startup onboarding, and separate pricing use cases.
 5. Produce one coherent answer; explain material conflicts or trade-offs between specialist approaches.
@@ -38,3 +38,19 @@ Coordinate the repository-local Skills for business consultation, analysis and u
 
 - Codex: `$business-skill-router Analyze this business problem and choose relevant specialist Skills.`
 - Claude Code: `/business-skill-router Analyze this business problem and choose relevant specialist Skills.`
+
+## Conversation isolation during routing
+
+- A new, unrelated chat starts with **no implicit preferences or decisions** from previous threads. Choose specialists and recommendations from the current question, current chat and pertinent evidence, not prior-session topic frequency.
+- Do not infer that the user favors an asset, blockchain, vendor, methodology, strategy, or prior allocation simply because it was discussed in another conversation.
+- Do not proactively consult past chats, stored summaries, or user-specific project notes when they are irrelevant. Explicit requests to resume or reuse a past decision are exceptions; retrieve only authorized relevant context or ask for a recap.
+- A repository Skill is a **method**, not a user preference. Catalog initialization discovers methods; it does not merge old conversations, reset memory, or override the root `AGENTS.md` isolation rule.
+- If a prior-chat detail is surfaced through the client, do not use it as an unconfirmed premise for an unrelated decision. Separately supported recommendations remain valid even when they happen to overlap an earlier topic.
+
+## Across conversations
+
+- Treat each new thread as a separate conversation. Use this router by default for a relevant question; **do not require** `business-context-init` first.
+- If the user invokes `business-context-init`, summarize only the compact catalog. Full specialist instructions are loaded when relevant to the task.
+- Previous chat decisions and state do not carry over automatically. Request a brief recap when they are essential.
+- Do not treat Skills located in other repository folders as available unless explicitly included in the current working environment.
+
