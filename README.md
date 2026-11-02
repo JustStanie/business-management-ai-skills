@@ -9,12 +9,12 @@ The up-to-date category/Skill catalog is [`SKILL_INDEX.md`](SKILL_INDEX.md). The
 
 **Historical review status:** 115 unchanged since prior static review; 0 changed and pending reassessment; 0 new/unreviewed.
 
-Regenerate after editing Skills: `python scripts/sync_skill_audit.py --write`. GitHub Actions performs this on pushes to the default branch; pull requests are checked for synchronization. No new expert review is implied.
+To refresh this catalog and audit reports, run `python scripts/sync_skill_audit.py --write` manually after editing Skills. No GitHub Actions or automatic commits are configured. This does not imply a new expert review.
 <!-- AUTO-SKILL-SUMMARY:END -->
 
-## Audit automation — keeps files synchronized
+## Local audit maintenance — manual only
 
-`SKILL_INDEX.md`, `audit-register.json`, `AUDIT_VALIDATION_RESULTS.json` and `TECHNICAL_AUDIT.md` are now **generated, not manually maintained**. The generator also refreshes the inventory summary at the top of this README. For setup, GitHub Actions behavior, caveats and review status definitions, see [`AUDIT_AUTOMATION.md`](AUDIT_AUTOMATION.md).
+`SKILL_INDEX.md`, `audit-register.json`, `AUDIT_VALIDATION_RESULTS.json` and `TECHNICAL_AUDIT.md` are now **generated, not manually maintained**. The generator also refreshes the inventory summary at the top of this README. For manual maintenance, caveats and review status definitions, see [`AUDIT_AUTOMATION.md`](AUDIT_AUTOMATION.md).
 
 ```powershell
 python .\scripts\sync_skill_audit.py --write
@@ -22,7 +22,7 @@ python .\scripts\sync_skill_audit.py --check
 python -m unittest discover -s tests -p "test_*.py" -v
 ```
 
-The GitHub workflow runs checks on pull requests and auto-commits regenerated reports on pushes to `main`/`master` if branch permissions allow. **Automated structural validation is not a fresh technical expert review.** New/changed methodologies require a separate substantive assessment.
+No GitHub Actions are configured: nothing runs on push or pull request, and no automatic commits are created. The local audit generator runs **only when explicitly invoked**. **Structural validation is not a fresh technical expert review.** New/changed methodologies require a separate substantive assessment.
 
 
 
